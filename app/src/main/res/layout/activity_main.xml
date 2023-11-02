@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:background="#123039" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="238dp"
+        android:layout_height="256dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="87dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/c2157201033" />
+
+    <Button
+        android:id="@+id/FetchToast"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="2"
+        android:background="#5CF44336"
+        android:backgroundTint="#B55D5D"
+        android:drawableTint="#884A4A"
+        android:foregroundTint="#AF5B5B"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="23"
+        android:text="Tampilkan Toast"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#8E4B4B"
+        android:textColorHint="#6C1E1E"
+        android:textColorLink="#5A3030"
+        app:iconTint="#B88181" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text="Joy Wisnu Nugroho"
+        android:textColor="#163B45"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="3dp"
+        android:gravity="center"
+        android:text="NIM.C2157201033"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginStart="-81dp"
+        android:layout_marginTop="385dp"
+        android:fontFamily="@font/rubik_bold"
+        android:gravity="left"
+        android:text="Detail Informasi Mahasiswa"
+        android:textColor="#334A8F"
+        android:textColorHighlight="#502C2C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginStart="-78dp"
+        android:layout_marginTop="517dp"
+        android:fontFamily="@font/rubik_bold"
+        android:gravity="left"
+        android:text="Detail Kontak"
+        android:textColor="#334A8F"
+        android:textColorHighlight="#502C2C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="-49dp"
+        android:text="Prodi                :  Sistem Informasi"
+        android:textColor="#888888" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="-92dp"
+        android:text="Tahun Masuk  : 2021"
+        android:textColor="#FF888888" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="-168dp"
+        android:text="0813 4655 7535"
+        android:textColor="#888888" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="-40dp"
+        android:text="Email: JoyWisnuAyy472010@gmail.com"
+        android:textColor="#888888" />
+
+</RelativeLayout>
